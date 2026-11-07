@@ -1,0 +1,14 @@
+# R noise
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+
+# Data: ignored by default until you've checked you're allowed to share it.
+# If you are, delete the next line (and add the files to data/).
+data/*.txt
+
+# OS noise
+.DS_Store
+Alagie_final.pdf

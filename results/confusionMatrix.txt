@@ -1,0 +1,309 @@
+Confusion Matrix and Statistics
+
+                 Reference
+Prediction        Amelinop Arctlado Aselaqua Baetmuti Baetnige Baetrhod Bithten
+  Amelinop              11        0        0        0        0        2       0
+  Arctlado               0        8        0        0        0        0       0
+  Aselaqua               0        0       33        0        0        0       1
+  Baetmuti               1        0        0       36        5        3       0
+  Baetnige               3        0        0        2       18        2       0
+  Baetrhod               0        0        0        0        2       11       0
+  Bithten                0        0        0        0        0        0      46
+  Caenrivu               0        0        0        0        0        0       0
+  Callwol                0        0        0        0        0        0       0
+  Cerasilf               0        0        0        0        0        0       0
+  Ceratopogonidae        0        0        0        0        0        0       0
+  Cheulep                0        0        0        0        0        0       0
+  Diura                  0        0        0        0        0        0       0
+  Elmis                  0        0        1        1        2        0       0
+  Epheauri               0        0        7        0        0        0       0
+  Epheign                0        0        0        0        0        0       0
+  Ephemucr               0        0        0        0        0        0       0
+  Habrphle               1        0        0        2        0        0       0
+  Heptdale               0        0        0        1        0        0       0
+  Hydraena               0        0        0        0        0        0       0
+  Hydrpell               0        1        0        0        0        0       0
+  Hydrsaxo               0        0        3        0        0        0       0
+  Hydrsilt               0        1        0        0        0        0       0
+  Isoperla               0        0        4        1        0        3       0
+  Leuctra                0        0        0        1        0        0       0
+  Limnvolc               0        0        0        2        0        0       0
+  Micrgeli               0        0        0        0        0        0       0
+  Micrseti               0        0        0        1        2        0       0
+  Myxasglu               0        0        0        0        0        0       0
+  Nemoura                0        0        2        1        0        0       0
+  Pisidium               0        0        1        0        0        0       0
+  Protintr               0        0        2        0        0        0       0
+  Protmeyr               1        0        0        0        0        0       0
+  Rhyanubi               0        0        0        0        0        0       0
+  Taenneb                0        0        2        0        0        0       0
+                 Reference
+Prediction        Caenrivu Callwol Cerasilf Ceratopogonidae Cheulep Diura Elmis
+  Amelinop               0       0        0               0       0     0     0
+  Arctlado               0       0        1               0       0     0     0
+  Aselaqua               0       0        0               0       0     0     0
+  Baetmuti               0       0        0               0       0     0     0
+  Baetnige               0       0        0               0       0     0     0
+  Baetrhod               0       0        0               0       0     0     0
+  Bithten                0       0        0               0       0     0     0
+  Caenrivu               6       0        0               0       0     0     0
+  Callwol                0      13        0               0       0     0     0
+  Cerasilf               0       0       24               0       0     0     0
+  Ceratopogonidae        0       0        0               8       0     0     0
+  Cheulep                0       0        0               0      12     0     0
+  Diura                  0       0        1               0       0    32     0
+  Elmis                  0       0        0               0       1     0    25
+  Epheauri               0       0        0               0       0     5     0
+  Epheign                0       0        0               0       0     0     0
+  Ephemucr               0       0        0               0       0     0     0
+  Habrphle               1       0        0               1       0     0     0
+  Heptdale               0       0        0               0       0     1     0
+  Hydraena               0       0        0               0       0     0     0
+  Hydrpell               0       0        1               0       1     2     0
+  Hydrsaxo               0       0        3               0       0     0     0
+  Hydrsilt               0       0        4               0       1     0     0
+  Isoperla               1       0        0               0       3     0     0
+  Leuctra                0       0        0               0       0     0     0
+  Limnvolc               0       0        0               0       0     0     1
+  Micrgeli               0       0        0               0       0     0     0
+  Micrseti               2       0        0               0       0     0     0
+  Myxasglu               0       0        0               0       0     0     0
+  Nemoura                0       0        0               0       0     0     1
+  Pisidium               0       0        0               0       0     0     0
+  Protintr               0       0        1               0       2     0     0
+  Protmeyr               0       0        0               0       0     0     1
+  Rhyanubi               0       0        0               0       0     1     0
+  Taenneb                0       0        0               0       0     1     0
+                 Reference
+Prediction        Epheauri Epheign Ephemucr Habrphle Heptdale Hydraena Hydrpell
+  Amelinop               0       0        0        0        0        0        0
+  Arctlado               0       0        0        0        0        0        0
+  Aselaqua               2       0        0        0        3        0        0
+  Baetmuti               0       0        0        0        1        0        0
+  Baetnige               0       0        2        1        0        0        0
+  Baetrhod               0       0        0        0        0        0        0
+  Bithten                0       0        0        0        0        0        0
+  Caenrivu               0       0        0        0        0        0        0
+  Callwol                0       0        0        0        0        0        2
+  Cerasilf               0       0        0        0        3        0        2
+  Ceratopogonidae        0       0        0        0        0        0        0
+  Cheulep                1       0        0        0        0        0        0
+  Diura                  0       0        0        0        3        0        1
+  Elmis                  0       0        0        0        3        0        0
+  Epheauri              23       0        0        0        3        0        0
+  Epheign                0      16        0        0        0        0        1
+  Ephemucr               0       0        9        0        0        0        0
+  Habrphle               0       0        0        4        0        0        0
+  Heptdale               2       0        0        0        7        0        0
+  Hydraena               0       0        0        0        0       18        0
+  Hydrpell               0       0        0        0        0        0        7
+  Hydrsaxo               0       1        0        0        1        0        3
+  Hydrsilt               0       0        0        0        0        0        1
+  Isoperla               1       0        0        2        0        0        0
+  Leuctra                1       0        0        1        0        0        0
+  Limnvolc               0       0        0        1        0        0        0
+  Micrgeli               0       0        0        0        0        0        0
+  Micrseti               0       0        0        0        1        0        0
+  Myxasglu               0       0        0        0        0        0        0
+  Nemoura                4       0        0        0        1        0        0
+  Pisidium               0       0        0        0        0        0        0
+  Protintr               2       0        0        0        1        0        1
+  Protmeyr               0       0        0        3        0        0        0
+  Rhyanubi               1       1        0        0        4        0        0
+  Taenneb                0       1        0        0        0        1        0
+                 Reference
+Prediction        Hydrsaxo Hydrsilt Isoperla Leuctra Limnvolc Micrgeli Micrseti
+  Amelinop               0        0        0       0        0        0        0
+  Arctlado               2        1        0       0        0        0        0
+  Aselaqua               3        0        0       1        0        0        0
+  Baetmuti               0        0        2       0        1        0        0
+  Baetnige               0        0        1       0        0        0        0
+  Baetrhod               0        0        0       1        0        0        0
+  Bithten                0        0        0       0        0        0        0
+  Caenrivu               0        0        2       0        0        0        1
+  Callwol                0        0        0       0        0        0        0
+  Cerasilf               3        2        0       0        0        0        0
+  Ceratopogonidae        0        0        0       0        0        0        0
+  Cheulep                0        1        0       0        0        0        0
+  Diura                  1        0        0       0        1        0        0
+  Elmis                  0        0        0       0        0        0        0
+  Epheauri               0        1        0       1        0        0        0
+  Epheign                0        0        1       0        0        0        0
+  Ephemucr               0        0        0       0        0        0        0
+  Habrphle               0        0        1       1        0        0        0
+  Heptdale               0        0        0       0        0        0        0
+  Hydraena               0        0        0       0        0        0        0
+  Hydrpell               0        1        0       0        0        0        0
+  Hydrsaxo              10        4        0       0        0        0        0
+  Hydrsilt               2       25        0       0        0        0        0
+  Isoperla               0        0       68       4        0        0        0
+  Leuctra                0        0        3      20        0        0        0
+  Limnvolc               0        0        0       1       25        0        0
+  Micrgeli               0        0        0       0        0       11        0
+  Micrseti               0        0        0       0        0        0       46
+  Myxasglu               0        0        0       0        0        0        0
+  Nemoura                1        0        4       0        0        0        0
+  Pisidium               0        0        0       0        0        0        0
+  Protintr               2        0        3       2        0        0        0
+  Protmeyr               0        0        4       0        0        0        0
+  Rhyanubi               0        0        0       0        0        0        0
+  Taenneb                0        0        1       0        0        0        0
+                 Reference
+Prediction        Myxasglu Nemoura Pisidium Protintr Protmeyr Rhyanubi Taenneb
+  Amelinop               0       0        0        0        0        0       0
+  Arctlado               0       0        0        0        0        0       0
+  Aselaqua               0       2        0        2        0        0       2
+  Baetmuti               0       0        0        0        1        0       3
+  Baetnige               0       1        0        0        2        1       0
+  Baetrhod               0       0        0        0        1        0       0
+  Bithten                0       0        0        0        0        0       0
+  Caenrivu               0       0        0        0        1        0       0
+  Callwol                0       0        0        0        0        0       0
+  Cerasilf               0       0        0        0        0        0       0
+  Ceratopogonidae        0       0        0        0        0        0       0
+  Cheulep                0       0        0        0        0        0       0
+  Diura                  0       0        0        0        0        0       2
+  Elmis                  0       1        0        0        1        0       0
+  Epheauri               0       2        0        3        0        0       1
+  Epheign                0       0        0        0        0        0       0
+  Ephemucr               0       0        0        0        0        0       1
+  Habrphle               0       0        0        0        0        0       0
+  Heptdale               0       0        0        0        0        0       0
+  Hydraena               0       0        0        0        0        0       0
+  Hydrpell               0       0        0        0        0        0       0
+  Hydrsaxo               0       1        0        0        0        0       0
+  Hydrsilt               0       0        0        0        0        0       0
+  Isoperla               0       1        0        2        4        1       3
+  Leuctra                0       2        0        0        0        1       0
+  Limnvolc               0       0        0        0        0        0       0
+  Micrgeli               0       0        0        0        0        0       0
+  Micrseti               0       0        0        0        0        0       0
+  Myxasglu              36       0        0        0        0        0       0
+  Nemoura                0      20        0        5        2        0       0
+  Pisidium               0       0       10        0        0        0       0
+  Protintr               0       7        0       36        0        0       3
+  Protmeyr               0       0        0        0        9        0       0
+  Rhyanubi               0       0        0        0        0       31       2
+  Taenneb                0       1        0        5        0        0      83
+
+Overall Statistics
+                                          
+               Accuracy : 0.7325          
+                 95% CI : (0.7052, 0.7586)
+    No Information Rate : 0.0919          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.7209          
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Amelinop Class: Arctlado Class: Aselaqua
+Sensitivity                  0.64706        0.800000         0.60000
+Specificity                  0.99813        0.996289         0.98451
+Pos Pred Value               0.84615        0.666667         0.67347
+Neg Pred Value               0.99442        0.998141         0.97883
+Prevalence                   0.01562        0.009191         0.05055
+Detection Rate               0.01011        0.007353         0.03033
+Detection Prevalence         0.01195        0.011029         0.04504
+Balanced Accuracy            0.82260        0.898145         0.79226
+                     Class: Baetmuti Class: Baetnige Class: Baetrhod
+Sensitivity                  0.75000         0.62069         0.52381
+Specificity                  0.98365         0.98584         0.99625
+Pos Pred Value               0.67925         0.54545         0.73333
+Neg Pred Value               0.98841         0.98957         0.99068
+Prevalence                   0.04412         0.02665         0.01930
+Detection Rate               0.03309         0.01654         0.01011
+Detection Prevalence         0.04871         0.03033         0.01379
+Balanced Accuracy            0.86683         0.80326         0.76003
+                     Class: Bithten Class: Caenrivu Class: Callwol
+Sensitivity                 0.97872        0.600000        1.00000
+Specificity                 1.00000        0.996289        0.99814
+Pos Pred Value              1.00000        0.600000        0.86667
+Neg Pred Value              0.99904        0.996289        1.00000
+Prevalence                  0.04320        0.009191        0.01195
+Detection Rate              0.04228        0.005515        0.01195
+Detection Prevalence        0.04228        0.009191        0.01379
+Balanced Accuracy           0.98936        0.798145        0.99907
+                     Class: Cerasilf Class: Ceratopogonidae Class: Cheulep
+Sensitivity                  0.68571               0.888889        0.60000
+Specificity                  0.99050               1.000000        0.99813
+Pos Pred Value               0.70588               1.000000        0.85714
+Neg Pred Value               0.98956               0.999074        0.99255
+Prevalence                   0.03217               0.008272        0.01838
+Detection Rate               0.02206               0.007353        0.01103
+Detection Prevalence         0.03125               0.007353        0.01287
+Balanced Accuracy            0.83811               0.944444        0.79906
+                     Class: Diura Class: Elmis Class: Epheauri Class: Epheign
+Sensitivity               0.76190      0.89286         0.62162        0.84211
+Specificity               0.99140      0.99057         0.97812        0.99813
+Pos Pred Value            0.78049      0.71429         0.50000        0.88889
+Neg Pred Value            0.99045      0.99715         0.98656        0.99720
+Prevalence                0.03860      0.02574         0.03401        0.01746
+Detection Rate            0.02941      0.02298         0.02114        0.01471
+Detection Prevalence      0.03768      0.03217         0.04228        0.01654
+Balanced Accuracy         0.87665      0.94171         0.79987        0.92012
+                     Class: Ephemucr Class: Habrphle Class: Heptdale
+Sensitivity                 0.818182        0.333333        0.225806
+Specificity                 0.999071        0.993494        0.996216
+Pos Pred Value              0.900000        0.363636        0.636364
+Neg Pred Value              0.998145        0.992572        0.977716
+Prevalence                  0.010110        0.011029        0.028493
+Detection Rate              0.008272        0.003676        0.006434
+Detection Prevalence        0.009191        0.010110        0.010110
+Balanced Accuracy           0.908627        0.663414        0.611011
+                     Class: Hydraena Class: Hydrpell Class: Hydrsaxo
+Sensitivity                  0.94737        0.388889        0.416667
+Specificity                  1.00000        0.994393        0.984962
+Pos Pred Value               1.00000        0.538462        0.384615
+Neg Pred Value               0.99907        0.989767        0.986817
+Prevalence                   0.01746        0.016544        0.022059
+Detection Rate               0.01654        0.006434        0.009191
+Detection Prevalence         0.01654        0.011949        0.023897
+Balanced Accuracy            0.97368        0.691641        0.700815
+                     Class: Hydrsilt Class: Isoperla Class: Leuctra
+Sensitivity                  0.71429         0.75556        0.64516
+Specificity                  0.99145         0.96994        0.99149
+Pos Pred Value               0.73529         0.69388        0.68966
+Neg Pred Value               0.99051         0.97778        0.98961
+Prevalence                   0.03217         0.08272        0.02849
+Detection Rate               0.02298         0.06250        0.01838
+Detection Prevalence         0.03125         0.09007        0.02665
+Balanced Accuracy            0.85287         0.86275        0.81832
+                     Class: Limnvolc Class: Micrgeli Class: Micrseti
+Sensitivity                  0.92593         1.00000         0.97872
+Specificity                  0.99529         1.00000         0.99424
+Pos Pred Value               0.83333         1.00000         0.88462
+Neg Pred Value               0.99811         1.00000         0.99903
+Prevalence                   0.02482         0.01011         0.04320
+Detection Rate               0.02298         0.01011         0.04228
+Detection Prevalence         0.02757         0.01011         0.04779
+Balanced Accuracy            0.96061         1.00000         0.98648
+                     Class: Myxasglu Class: Nemoura Class: Pisidium
+Sensitivity                  1.00000        0.52632        1.000000
+Specificity                  1.00000        0.98000        0.999072
+Pos Pred Value               1.00000        0.48780        0.909091
+Neg Pred Value               1.00000        0.98281        1.000000
+Prevalence                   0.03309        0.03493        0.009191
+Detection Rate               0.03309        0.01838        0.009191
+Detection Prevalence         0.03309        0.03768        0.010110
+Balanced Accuracy            1.00000        0.75316        0.999536
+                     Class: Protintr Class: Protmeyr Class: Rhyanubi
+Sensitivity                  0.67925        0.428571         0.91176
+Specificity                  0.97488        0.991565         0.99146
+Pos Pred Value               0.58065        0.500000         0.77500
+Neg Pred Value               0.98343        0.988785         0.99714
+Prevalence                   0.04871        0.019301         0.03125
+Detection Rate               0.03309        0.008272         0.02849
+Detection Prevalence         0.05699        0.016544         0.03676
+Balanced Accuracy            0.82706        0.710068         0.95161
+                     Class: Taenneb
+Sensitivity                 0.83000
+Specificity                 0.98785
+Pos Pred Value              0.87368
+Neg Pred Value              0.98288
+Prevalence                  0.09191
+Detection Rate              0.07629
+Detection Prevalence        0.08732
+Balanced Accuracy           0.90893

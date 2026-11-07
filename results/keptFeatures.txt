@@ -1,0 +1,15 @@
+Angle
+Circ
+FeretY
+AR
+StdDev.gray.
+Min.gray.
+Max.gray.
+XM.gray.
+StdDev.blue.
+Min.blue.
+Max.blue.
+Max.red.
+IntDen.red.
+Skew.red.
+Kurt.red.
