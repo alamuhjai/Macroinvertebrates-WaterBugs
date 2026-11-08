@@ -32,13 +32,13 @@ classMap = function(data, title, file, outlierCut = 0.95) {
   outlier = !is.na(farness) & farness > outlierCut
 
   savePng(file, width = 1400, height = 900, res = 130)
-  par(bg = "white", xpd = TRUE, mar = c(5, 4, 4, 9))
+  par(bg = "white", xpd = TRUE, mar = c(5, 4, 4, 11))
   plot(farness, pac, col = as.numeric(y), pch = ifelse(outlier, 17, 19),
        xlab = "Farness", ylab = "PAC", main = title)
   abline(h = 0.2, lty = 2)
   abline(v = 0.8, lty = 2)
   legend("right", legend = levels(y), col = seq_along(levels(y)), pch = 19,
-         cex = 0.7, bty = "n", title = "Taxon", inset = c(-0.24, 0))
+         cex = 0.68, bty = "n", title = "Taxon", inset = c(-0.22, 0))
   legend("topleft", legend = c("Normal point", "Outlier"), pch = c(19, 17),
          bty = "n")
   dev.off()
